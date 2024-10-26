@@ -1,0 +1,212 @@
+/*fonts start*/
+@font-face{
+    src: url(../fonts/lato-bold.ttf);
+    font-family: Lato-Bold ;
+}
+
+@font-face{
+    src: url(../fonts/lato-semibold.ttf);
+    font-family: Lato-SemiBold ;
+}
+
+@font-face{
+    src: url(../fonts/lato-medium.ttf);
+    font-family: Lato-Medium ;
+}
+
+@font-face{
+    src: url(../fonts/lato-regular.ttf);
+    font-family: Lato-Regular ;
+}
+@font-face{
+    src: url(../fonts/roboto-medium.ttf);
+    font-family: Roboto-Medium ;
+}
+@font-face{
+    src: url(../fonts/roboto-regular.ttf);
+    font-family: Roboto-Regular ;
+}
+
+/*common start*/
+:root{
+    --lato: "Lato", sans-serif;
+    --rob: "Roboto", sans-serif;
+    --ash: #8e8e8e;
+    --black: #000000;
+}
+body{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+/*common end*/
+/*header star*/
+
+.b_wpr{
+    padding: 40px, 0;
+}
+.logo{
+    font-family: var(--lato);
+    font-size: 30px;
+    font-weight: 500;
+}
+.m_button{
+    border: none;
+}
+.m_button:focus{
+    box-shadow: none;
+}
+.menu ul li{
+    padding: 0, 15px;
+}
+.menu ul li a{
+    font-family: var(--lato) !important;
+    text-transform: uppercase;
+    
+}
+.menu ul li a:hover, .menu ul li a:active{
+    color: var(--black);
+} 
+.nav-item{
+    
+}
+.s_icon{
+    background-color: transparent;
+    border: none;
+}
+.s_form{
+    width: 310px;
+    border: none;
+}
+.s_form[data-bs-popper] {
+    top: 41px;
+    left: -257px;
+}
+
+/*header end*/
+/*Slider start*/
+.banner{
+    background-image: url(../image/b_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.s_item{}
+.slider{
+    margin: 210px 0 200px;
+}
+.slider h1{
+    font-family: var(--lato);
+    font-size: 60px;
+    font-weight: 700;
+}
+.slider p{
+     margin: 50px 0;
+}
+.btn_cmn{
+    background: white;
+    font-size: 16px !important;
+    color: var(--ash);
+    text-transform: uppercase;
+}
+.btn_cmn span{
+    padding-left: 10px;
+}
+.btn_cmn:hover{
+    background: white;;
+    font-weight: 500;
+    color: var(--black);
+}
+.con_btn{
+    background: transparent;
+    border: none;
+    color: var(--ash);
+    text-transform: uppercase;
+}
+.con_btn:hover{
+    font-family: var(--lato);
+    font-weight: 600;
+    color: var(--black);
+}
+.ctrl span{
+    color: var(--ash);
+}
+.ctrl span:nth-child(3){
+    color: var(--black);
+}
+/*slider end*/
+/*Feature start*/
+.c_p{
+    padding-bottom: 120px;
+}
+.c_title{
+    margin: 80px 0 55px;
+    font-family: var(--lato);
+    font-size: 30px;
+    color: var(--black);
+}
+.b_title{
+
+}
+
+.feature_text{
+    margin: 50px 0 5px;
+}
+/*feature item start*/
+.sf_item{
+    border: 1px solid var(--ash);
+    position: relative;
+    margin-top: 20px;
+}
+.sf_icon {
+    width: 68px;
+    font-size: 60px;
+    position: absolute;
+    left: 36%;
+    top: -11%;
+    background-color: white;
+}
+
+.sf_item h2{
+    margin: 78px 0 44px !important;
+    font-family: var(--lato);
+    font-size: 18px;
+    font-weight: 700;
+    top: 0;
+
+}
+.sf_text{
+    margin-bottom: 0;
+}
+.sf_item a{
+    margin: 45px 0 40px;
+}
+/*feature end*/
+/*about start*/
+
+.btn_lm{
+    border: 1px solid var(--ash);
+}
+.btn_lm:hover{
+    border: 1px solid;
+}
+.l_item img{
+    padding-top: 13px;
+}
+    
+.r_item {
+    padding-left: 46px;
+}
+.r_item h1{
+    margin-bottom: 44px;
+    font-family: var(--lato);
+    font-size: 30px;
+    color: var(--black);
+}
+.abt_para{
+    margin: 44px 0;
+}
+
+/*about end*/
